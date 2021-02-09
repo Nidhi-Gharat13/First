@@ -1,0 +1,68 @@
+body{
+  background-color:  #ffff80;
+  font-family: Georgia;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 40px;margin-left: 0;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.active{
+  background-color: red;
+}
+
+.first img{
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1, h3{
+  text-align: center;
+}
+.third img{
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 50%;
+}
+
+.second img{
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 46%;
+}
+
+.fourth img{
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  height: 33%;
+}
